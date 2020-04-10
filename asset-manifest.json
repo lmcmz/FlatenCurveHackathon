@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/TEST/static/css/main.002ced65.chunk.css",
-    "main.js": "/TEST/static/js/main.90df1710.chunk.js",
-    "main.js.map": "/TEST/static/js/main.90df1710.chunk.js.map",
-    "runtime-main.js": "/TEST/static/js/runtime-main.133cf28d.js",
-    "runtime-main.js.map": "/TEST/static/js/runtime-main.133cf28d.js.map",
-    "static/css/2.b479cb4e.chunk.css": "/TEST/static/css/2.b479cb4e.chunk.css",
-    "static/js/2.4854bf74.chunk.js": "/TEST/static/js/2.4854bf74.chunk.js",
-    "static/js/2.4854bf74.chunk.js.map": "/TEST/static/js/2.4854bf74.chunk.js.map",
-    "index.html": "/TEST/index.html",
-    "precache-manifest.2900d49f68091c7296e7e544dff3a885.js": "/TEST/precache-manifest.2900d49f68091c7296e7e544dff3a885.js",
-    "service-worker.js": "/TEST/service-worker.js",
-    "static/css/2.b479cb4e.chunk.css.map": "/TEST/static/css/2.b479cb4e.chunk.css.map",
-    "static/css/main.002ced65.chunk.css.map": "/TEST/static/css/main.002ced65.chunk.css.map",
-    "static/js/2.4854bf74.chunk.js.LICENSE.txt": "/TEST/static/js/2.4854bf74.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/TEST/static/media/WenYueShengHuoJiaTi.b4849602.eot",
-    "static/media/flag-icon.min.css": "/TEST/static/media/zw.8b885465.svg",
-    "static/media/covid19.4f08a25e.svg": "/TEST/static/media/covid19.4f08a25e.svg"
+    "main.css": "/FlattenTheCurveHackathon/static/css/main.8b171e25.chunk.css",
+    "main.js": "/FlattenTheCurveHackathon/static/js/main.a2168c83.chunk.js",
+    "main.js.map": "/FlattenTheCurveHackathon/static/js/main.a2168c83.chunk.js.map",
+    "runtime-main.js": "/FlattenTheCurveHackathon/static/js/runtime-main.9d31dbf3.js",
+    "runtime-main.js.map": "/FlattenTheCurveHackathon/static/js/runtime-main.9d31dbf3.js.map",
+    "static/css/2.faabd321.chunk.css": "/FlattenTheCurveHackathon/static/css/2.faabd321.chunk.css",
+    "static/js/2.4854bf74.chunk.js": "/FlattenTheCurveHackathon/static/js/2.4854bf74.chunk.js",
+    "static/js/2.4854bf74.chunk.js.map": "/FlattenTheCurveHackathon/static/js/2.4854bf74.chunk.js.map",
+    "index.html": "/FlattenTheCurveHackathon/index.html",
+    "precache-manifest.9485adf99518290bba5ec53a09a6f91b.js": "/FlattenTheCurveHackathon/precache-manifest.9485adf99518290bba5ec53a09a6f91b.js",
+    "service-worker.js": "/FlattenTheCurveHackathon/service-worker.js",
+    "static/css/2.faabd321.chunk.css.map": "/FlattenTheCurveHackathon/static/css/2.faabd321.chunk.css.map",
+    "static/css/main.8b171e25.chunk.css.map": "/FlattenTheCurveHackathon/static/css/main.8b171e25.chunk.css.map",
+    "static/js/2.4854bf74.chunk.js.LICENSE.txt": "/FlattenTheCurveHackathon/static/js/2.4854bf74.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/FlattenTheCurveHackathon/static/media/WenYueShengHuoJiaTi.b4849602.eot",
+    "static/media/flag-icon.min.css": "/FlattenTheCurveHackathon/static/media/zw.8b885465.svg",
+    "static/media/covid19.4f08a25e.svg": "/FlattenTheCurveHackathon/static/media/covid19.4f08a25e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.133cf28d.js",
-    "static/css/2.b479cb4e.chunk.css",
+    "static/js/runtime-main.9d31dbf3.js",
+    "static/css/2.faabd321.chunk.css",
     "static/js/2.4854bf74.chunk.js",
-    "static/css/main.002ced65.chunk.css",
-    "static/js/main.90df1710.chunk.js"
+    "static/css/main.8b171e25.chunk.css",
+    "static/js/main.a2168c83.chunk.js"
   ]
 }
