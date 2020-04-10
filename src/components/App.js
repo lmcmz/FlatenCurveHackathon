@@ -25,9 +25,9 @@ import { updateDarkMode } from '../utils/utils'
 import { mapText } from '../utils/map_text'
 
 const defaultState = {
-    currentMap: 'WORLD',
+    currentMap: 'AUS',
     metric: 'confirmedCount',
-    currentRegion: [ str.GLOBAL_ZH ],
+    currentRegion: [ str.AUSTRALIA_ZH ],
     playing: false,
     scale: 'linear',
     mapZoom: 1,
@@ -224,13 +224,13 @@ class App extends Component {
                                             {i18n.COVID19[lang]}
                                         </span>
                                     </div>
-                                    <NavBar
+                                    {/* <NavBar
                                         {...this.state}
                                         scaleToggle={this.scaleToggle}
                                         languageToggle={this.languageToggle}
                                         darkModeToggle={this.darkModeToggle}
                                         reset={this.reset}
-                                    />
+                                    /> */}
                                     {!fullPlot &&
                                     !fullTree && (
                                         <Measure
@@ -250,14 +250,7 @@ class App extends Component {
                                                         width: !fullMap ? '100%' : this.state.fullDimensions.width
                                                     }}
                                                 >
-                                                    {currentMap === str.TRANSMISSION && (
-                                                        <TransmissionNetwork
-                                                            {...this.state}
-                                                            regionToggle={this.regionToggle}
-                                                            tooltipRebuild={this.tooltipRebuild}
-                                                        />
-                                                    )}
-                                                    {currentMap !== str.TRANSMISSION && (
+                                                    {(
                                                         <Map
                                                             {...this.state}
                                                             handleMapZoomChange={this.handleMapZoomChange}
@@ -282,16 +275,6 @@ class App extends Component {
                                         metricToggle={this.metricToggle}
                                         regionToggle={this.regionToggle}
                                     />
-                                    <DateSlider
-                                        {...this.state}
-                                        handleDateChange={this.handleDateChange}
-                                        handleTempDateChange={this.handleTempDateChange}
-                                    />
-                                    <AnimationController
-                                        {...this.state}
-                                        handleDateChange={this.handleDateChange}
-                                        playingToggle={this.playingToggle}
-                                    />
                                     <div className="footer-white" />
                                 </Col>
                                 {!fullMap && (
@@ -310,21 +293,16 @@ class App extends Component {
                                                 scaleToggle={this.scaleToggle}
                                                 handlePlotTypeChange={this.handlePlotTypeChange}
                                             />
-                                            <Tree
-                                                {...this.state}
-                                                regionToggle={this.regionToggle}
-                                                fullTreeToggle={this.fullTreeToggle}
-                                            />
                                             <div className="footer-placeholder" />
                                         </Row>
                                     </Col>
                                 )}
                             </Row>
                         </Container>
-                        <Footer {...this.state} />
+                        {/* <Footer {...this.state} /> */}
                     </Fragment>
                 )}
-                <ReactTooltip className="plot-tooltip" type={darkMode ? 'dark' : 'light'} html={true} />
+                {/* <ReactTooltip className="plot-tooltip" type={darkMode ? 'dark' : 'light'} html={true} /> */}
             </div>
         )
     }

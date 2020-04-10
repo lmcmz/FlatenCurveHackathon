@@ -80,7 +80,7 @@ export default class MapNavBar extends Component {
                             <FiMap size={14} style={{ marginRight: 10 }} />
                             <span>{mapText[currentMap].title[lang]}</span>
                         </DropdownToggle>
-                        <DropdownMenu
+                        {/* <DropdownMenu
                             modifiers={{
                                 setMaxHeight: {
                                     enabled: true,
@@ -145,7 +145,7 @@ export default class MapNavBar extends Component {
                                         )
                                     })
                             )}
-                        </DropdownMenu>
+                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 )}
             </div>
