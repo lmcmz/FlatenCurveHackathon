@@ -2,6 +2,7 @@
     "name": "covid19",
     "version": "0.1.0",
     "private": true,
+    "homepage": "http://lmcmz.github.io/TEST",
     "dependencies": {
         "@ctrl/tinycolor": "^2.6.0",
         "@nivo/bump": "^0.61.1",
@@ -38,7 +39,9 @@
         "test": "react-app-rewired test",
         "eject": "react-scripts eject",
         "postinstall": "patch-package; bash ./scripts/postinstall.sh",
-        "data": "bash ./scripts/data_processing.sh"
+        "data": "bash ./scripts/data_processing.sh",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -50,6 +53,7 @@
     "devDependencies": {
         "lodash": "^4.17.15",
         "mapshaper": "^0.4.158",
+        "gh-pages": "^2.2.0",
         "patch-package": "^6.2.0",
         "postinstall-postinstall": "^2.0.0",
         "react-app-rewire-yaml": "^1.1.0",
